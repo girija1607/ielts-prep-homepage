@@ -1,16 +1,64 @@
-# React + Vite
+# Apex IELTS Prep - Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, fully responsive homepage for a fictional IELTS preparation institute called "Apex IELTS Prep". The project is built from scratch using **React** and styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://graceful-clafoutis-348385.netlify.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Apex IELTS Prep Homepage](https://i.imgur.com/gKq9b9g.png)
 
-## React Compiler
+---
+## ## **Features**
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Modern & Professional UI:** Clean, spacious, and user-friendly design.
+* **Fully Responsive:** Looks great on all devices, from mobile phones to desktops.
+* **Interactive Elements:** Subtle hover effects and transitions for a better user experience.
+* **Component-Based Architecture:** Built with reusable React components for maintainability.
 
-## Expanding the ESLint configuration
+---
+## ## **Tech Stack**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Framework:** React (via Vite)
+* **Styling:** Tailwind CSS
+* **Icons:** React Icons
+* **Deployment:** Netlify
+
+---
+## ## **Setup and Installation**
+
+To run this project on your local machine, follow these steps:
+
+1.  **Prerequisites**
+    Make sure you have **Node.js** (version 18 or higher) and **Git** installed on your system.
+
+2.  **Clone the Repository**
+    Open your terminal and clone the project repository:
+    ```bash
+    git clone [https://github.com/girija1607/ielts-prep-homepage.git](https://github.com/girija1607/ielts-prep-homepage.git)
+    ```
+
+3.  **Navigate to the Project Directory**
+    ```bash
+    cd ielts-prep-homepage
+    ```
+
+4.  **Install Dependencies**
+    Install all the required packages using npm:
+    ```bash
+    npm install
+    ```
+
+5.  **Run the Development Server**
+    Start the local development server:
+    ```bash
+    npm run dev
+    ```
+    The application will now be running on **http://localhost:5173**.
+
+---
+## ## **Design Choices**
+
+* **Color Palette:** The primary color is a deep **slate blue** to evoke a sense of trust and professionalism. This is contrasted with a vibrant **emerald green** for calls-to-action (like buttons) to draw user attention and suggest success. The overall background is a mix of white and light gray to maintain a clean and uncluttered feel.
+
+* **Typography:** The **"Inter"** font family was chosen for its excellent readability and modern, neutral aesthetic, which works well for both headings and body text.
+
+* **Responsiveness:** A **mobile-first** approach was taken. The layout is a single column on small screens for easy scrolling and expands into multi-column grids on larger screens to make effective use of the available space. Flexbox and Grid were used extensively to achieve this fluid layout.
