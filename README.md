@@ -4,8 +4,6 @@ This is a modern, fully responsive homepage for a fictional IELTS preparation in
 
 **Live Demo:** [https://graceful-clafoutis-348385.netlify.app/]
 
-![Apex IELTS Prep Homepage](https://i.imgur.com/gKq9b9g.png)
-
 ---
 ## ## **Features**
 
